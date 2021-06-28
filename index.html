@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Button-Clicker</title>
+    <link rel= "stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav-bar">
+        <h1 class= "title"> Dojonary</h1>
+        <textarea placeholder="Search"></textarea>
+        <button class="search-btn" onclick="toggle(this)"> Login </button>
+    </div>
+    <div class="big-container">
+        <div class="col1">
+            <div class="card1 card">
+                <div class="words">
+                    <h2>ninja</h2>
+                    <p class="italic noun">noun</p>
+                    <p>Plural:<span class="italic"> ninjas</span></p>
+                    <button class="likes" onclick="alert('Ninja was liked')"> 13 likes</button>
+                </div>
+                <div class="definition1">
+                    <p> A practitioner skilled in the <span class="underline">Japanese</span> art of <span class="underline">ninjutsu</span></p>
+                </div>
+            </div>
+            <div class="card2 card">
+                <div class="words">
+                    <h2>ninja</h2>
+                    <p class="italic noun">noun</p>
+                    <p>Plural: <span class="italic">ninjas</span></p>
+                    <button class="likes"> 37 likes</button>
+                </div> 
+                <div class="definition2">
+                    <p>A <span class="underline">programmer</span> who breaks down problems with <span class="underline">zen</span>-like focus</p>
+                </div> 
+            </div>  
+        </div>
+        <div class="col2">
+            <div class="card3 card">
+                <p><strong>Dojonary is defined by YOU</strong> 
+                <button class="green" onclick="hide(this)"> Add Definition</button></p>
+            </div>
+        </div>
+    </div> 
+    <script src="script.js"></script>   
+</body>
+</html>
